@@ -22,10 +22,14 @@ define(function (require) {
         //configure routing
         router.useConvention();
         router.mapNav("index/home");
+        router.mapNav("registration/home");
+        router.mapNav("registration/index");
+        router.mapNav("registration/initapp");
+        router.mapNav("registration/detailplan");
 
         app.adaptToDevice();
 
         //Show the app by setting the root view model for our application with a transition.
-        app.setRoot('viewmodels/shell', 'entrance');
+        app.setRoot('viewmodels/registration/home', 'entrance');
     });
 });

@@ -5,7 +5,7 @@
         router: router,
         activate: function () {
             console.log("Starting the funtion");
-            return router.activate('index/home');
+            return router.activate('registration/home');
         }
     };
 });

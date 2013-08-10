@@ -1,0 +1,49 @@
+﻿<div class="row color">
+
+    <div class=" pull-left col-lg-8">
+        <h2>insight</h2>
+    </div>
+    <div class="pull-right BtnPadding">
+        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-question-sign iconcolor"></span>Help </button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Help Desk<span class="caret"></span> </button>
+        <button type="button" class="btn btn-primary">Logout</button>
+    </div>
+</div>
+
+<div class="navbar">
+    <div class="container">
+        <h2>New Registration - BioSafety(eIBC)</h2>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="list-group">
+                <a href="#views/registration/initapp"  class="list-group-item"
+                     data-bind="css: { valid: valid.isInitAppValid() == 'Valid', invalid: valid.isInitAppValid() == 'Invalid' }">Initial Application</a>
+                <a href="#views/registration/detailplan" class="list-group-item"
+                    data-bind="css: { valid: valid.isDetailPlanValid() == 'Valid', invalid: valid.isDetailPlanValid() == 'Invalid' }">Laboratory Initial Application</a>
+                <a href="#" class="list-group-item">Detailed Research Plan</a>
+                <a href="" class="list-group-item">Work Location</a>
+                <a href="" class="list-group-item">Occupational Health</a>
+                <a href="" class="list-group-item">Sponsor Funding</a>
+                <a href="" class="list-group-item">Staff & Access</a>
+                <a href="" class="list-group-item">Attachment</a>
+                <a href="" class="list-group-item">Submission</a>
+                <a href="#" class="list-group-item">Workflow History</a>
+            </div>
+        </div>
+
+        <div class="col-lg-9">
+            <div class="well">
+                <form>
+                    <div id="PageHost" data-bind="compose: router.activeItem">
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

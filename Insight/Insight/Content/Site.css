@@ -1,73 +1,110 @@
-﻿
-.color{
-
-color: #ffffff;
- background-color: #428bca !important;
- min-height :45px;
- border-bottom: 3px solid #D3D3D3;
-}
-.iconcolor{
-color: black;
-padding-right: 8px;
-}
-.BtnPadding{
-padding-top:16px;
-}
-
-.homeBlock{
-
- background-color: #f5f5f5 !important;
- min-height :45px;
- border-bottom: 3px solid #D3D3D3;
-
-
-}
-.block{
-min-height :65px;
-padding-left : 15px;
-background-color :		#FFFFFF;
-border: 1px solid #F5F5F5;
-margin-right : 8px;
-
-
-}
-
-.block:hover{
-min-height :120px;
-
-background-color :#F5F5F5;
-
-margin-right : 8px;
-
-
-}
-.padding{
-padding-left : 0;
-padding-right : 0;
-}
-.emptyBlock{
-min-height : 450px;
-border-left: 8px solid #D3D3D3;
- background-color: #f5f5f5;
-
-}
-.block   div.overlay
+﻿body
 {
-	background: #ede6ee;
-	cursor: pointer;
-	display:none;
+    margin: 0px auto;
+    width: 97%;
 }
 
-.block:hover   div.overlay
+.radio
 {
-	background: #ede6ee !important;	
-	cursor: pointer;
-	display:block;
+    margin-top: 0px !important;
+    display: inline-block;
 }
-.extraspace{
-margin-bottom :16px;
+
+.valid
+{
+    background: url(../images/tickmark.jpg);
+    background-position: right;
+    background-size: 45px;
+    background-repeat: no-repeat;
 }
-div .col-lg-7,.col-lg-9{
-padding-right : 0px !important;
-padding-left : 0px !important;
+
+.invalid
+{
+    background: url(../images/crossmark.jpg);
+    background-position: right;
+    background-size: 45px;
+    background-repeat: no-repeat;
+}
+textarea{
+    height:70px;
+    width:700px;
+}
+.color
+{
+    color: #ffffff;
+    background-color: #428bca !important;
+    min-height: 45px;
+    border-bottom: 3px solid #D3D3D3;
+}
+
+.iconcolor
+{
+    color: black;
+    padding-right: 8px;
+}
+
+.BtnPadding
+{
+    padding-top: 16px;
+}
+
+.homeBlock
+{
+    background-color: #f5f5f5 !important;
+    min-height: 45px;
+    border-bottom: 3px solid #D3D3D3;
+}
+
+.block
+{
+    min-height: 65px;
+    padding-left: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    margin-right: 8px;
+}
+
+    .block:hover
+    {
+        min-height: 120px;
+        background-color: #F5F5F5;
+        margin-right: 8px;
+    }
+
+.padding
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.emptyBlock
+{
+    min-height: 450px;
+    border-left: 8px solid #D3D3D3;
+    background-color: #f5f5f5;
+}
+
+.block div.overlay
+{
+    background: #ede6ee;
+    cursor: pointer;
+    display: none;
+}
+
+.block:hover div.overlay
+{
+    background: #ede6ee !important;
+    cursor: pointer;
+    display: block;
+}
+
+.extraspace
+{
+    margin-bottom: 16px;
+}
+
+div .col-lg-7, .col-lg-9
+{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
