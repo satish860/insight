@@ -216,8 +216,16 @@
     <Content Include="App\main.js" />
     <Content Include="App\services\menuService.js" />
     <Content Include="App\viewmodels\index\home.js" />
+    <Content Include="App\viewmodels\registration\detailplan.js" />
+    <Content Include="App\viewmodels\registration\home.js" />
+    <Content Include="App\viewmodels\registration\index.js" />
+    <Content Include="App\viewmodels\registration\initapp.js" />
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="App\views\index\home.html" />
+    <Content Include="App\views\registration\detailplan.html" />
+    <Content Include="App\views\registration\home.html" />
+    <Content Include="App\views\registration\index.html" />
+    <Content Include="App\views\registration\initapp.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="Content\bootstrap\bootstrap-glyphicons.css" />
     <Content Include="Content\bootstrap\bootstrap.css" />
@@ -285,6 +293,8 @@
     <Content Include="Content\fonts\glyphiconshalflings-regular.otf" />
     <Content Include="Content\fonts\glyphiconshalflings-regular.eot" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Images\crossmark.jpg" />
+    <Content Include="Images\tickmark.jpg" />
     <Content Include="Repositories\InsightRepository.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -302,6 +312,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\knockout-2.2.1.debug.js" />
     <Content Include="Scripts\knockout-2.2.1.js" />
+    <Content Include="Scripts\knockout.validation.debug.js" />
+    <Content Include="Scripts\knockout.validation.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\sammy-0.7.4.js" />
     <Content Include="Scripts\sammy-0.7.4.min.js" />
